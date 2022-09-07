@@ -4,6 +4,8 @@
     width: 100%;
 }
 
+  
+}
 body {
     background: #2a2e32;
   }
@@ -13,7 +15,7 @@ body {
   }
   
   a {
-    color: inherit;
+    color:white;
     text-decoration: none;
     transition: all 0.3s;
   }
