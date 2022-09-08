@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+
 .headimg{
     height: 100vh;
     width: 100%;
 }
 
+.midbody{
+  display: flex;
   
 }
-body {
-    background: #2a2e32;
-  }
   
   .text-small {
     font-size: 0.9rem;
