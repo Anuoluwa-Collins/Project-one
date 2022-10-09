@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 
-body{
+*{
   margin: 0;
   padding: 0;
-  font-family: raleway, sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: normal;
+  color: #000;
 }
 
 
@@ -21,15 +22,13 @@ h1{
   padding: 25px;
 }
 .rightbody{
+  text-align: center;
   width: 35%;
   float: right;
 }
 .leftbody{
   width: 60%;
   float: left;
-}
-.btn, .vidlink{
-  text-align: center;
 }
 button{
   text-align: center;
@@ -41,6 +40,7 @@ button{
   box-shadow: none;
 }
 button:hover{
+  border: none;
   background-color: #B2BEB5;
   box-shadow: none;
 }
