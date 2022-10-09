@@ -17,9 +17,6 @@ h1{
   padding: 10px;
   text-align: center;
 }
-.content{
-  height: 100vh;
-}
 .midbody{
   padding: 25px;
 }
@@ -31,13 +28,28 @@ h1{
   width: 60%;
   float: left;
 }
+.btn, .vidlink{
+  text-align: center;
+}
 button{
-  
+  text-align: center;
+  padding: 8px;
+  font-weight: 100;
+  background-color: rgb(50, 79, 173);
+  color: #fff;
+  border: none;
+  box-shadow: none;
+}
+button:hover{
+  background-color: #B2BEB5;
+  box-shadow: none;
 }
 .vidlink{
   padding: 15px;
 }
-
+#foot_section2{
+  padding: 25px;
+}
 #foot_section1_list{
   display: flex;
   width: 100%;
