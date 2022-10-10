@@ -7,8 +7,9 @@
   font-weight: 600;
   color: #000;
 }
-
-
+a:link{
+  text-decoration: none;
+}
 .headimg{
   height: 100vh;
   width: 100%;
@@ -44,11 +45,11 @@ button:hover{
   background-color: #B2BEB5;
   box-shadow: none;
 }
+.btnarr{
+  color: #fff;
+}
 .vidlink{
   padding: 15px;
-}
-#foot_section2{
-  padding: 25px;
 }
 #foot_section1_list{
   display: flex;
@@ -57,14 +58,14 @@ button:hover{
   list-style: none;
   padding: 25px;
   align-items: start;
+  text-transform: capitalize;
 }
 #foot_section1_listitem{
   padding-left: 10px;
 }
 footer{
-  bottom: 0;
+  text-decoration: none;
 }
-
 @media only screen and ( max-width: 750px){
 .midbody{
   display: flex;
